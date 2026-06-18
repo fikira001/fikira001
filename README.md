@@ -10,11 +10,12 @@ Building practical SOC skills through hands-on labs, detection engineering proje
 
 Linux • Windows • Wireshark • Python • SQL • Git • Splunk • ELK
 
-## Current Training
+## Currently Working On
 
 - Google Cybersecurity Professional Certificate
 - Hack The Box Academy SOC Analyst Path
-- CompTIA Security+ Preparation
+- Security+ Preparation
+- Building SOC-focused detection and investigation projects
 
 ## Connect
 
