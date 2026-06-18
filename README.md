@@ -1,6 +1,6 @@
 # Idris Mustapha
 
-SOC Analyst | Cybersecurity Graduate | Network Monitoring | Security Operations | Google Cybersecurity | Linux • Networking • Incident Response
+Aspiring SOC Analyst | Cybersecurity Graduate | Security Operations | Threat Detection | Network Security
 
 Cybersecurity Graduate focused on Security Operations, Threat Detection, Incident Response, and Network Security.
 
