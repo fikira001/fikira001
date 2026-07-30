@@ -101,12 +101,20 @@ Holds a **B.Sc. in Cybersecurity** (Bayero University Kano) and the **Google Cyb
 
 ---
 
-## 📊 GitHub Security & Activity Metrics
+## 📊 Security & GitHub Focus
 
 <div align="center">
 
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=fikira001&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Idris's GitHub Stats" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fikira001&layout=compact&theme=tokyonight&hide=html,css" alt="Top Languages" />
+  [![GitHub Profile](https://img.shields.io/badge/GitHub-fikira001-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fikira001)
+  [![Security Operations](https://img.shields.io/badge/Focus-SOC_Operations-0052CC?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/fikira001)
+  [![Threat Detection](https://img.shields.io/badge/Domain-Threat_Detection_Engineering-FF6F00?style=for-the-badge&logo=matrix&logoColor=white)](https://github.com/fikira001)
+  [![SIEM Expertise](https://img.shields.io/badge/SIEM-Wazuh_SIEM%2FXDR-007ACC?style=for-the-badge&logo=wazuh&logoColor=white)](https://wazuh.com)
+
+  <br/>
+
+  [![Python](https://img.shields.io/badge/Python-Automation_&_Scripting-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+  [![Linux](https://img.shields.io/badge/Linux-Ubuntu_%26_Kali-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://linux.org)
+  [![Networking](https://img.shields.io/badge/Networking-NOC_%26_VoIP%2FSIP-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)](https://netacad.com)
 
 </div>
 
