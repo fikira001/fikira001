@@ -122,7 +122,7 @@ Holds a **B.Sc. in Cybersecurity** (Bayero University Kano) and the **Google Cyb
 
 ## 📫 Let's Connect!
 
-- 📧 **Email**: [idreesmustpha@gmail.com](mailto:idreesmustpha@gmail.com)
+- 📧 **Email**: [idreesmustpher@gmail.com](mailto:idreesmustpher@gmail.com)
 - 💼 **LinkedIn**: [linkedin.com/in/idris-mustapha-l](https://linkedin.com/in/idris-mustapha-l)
 - 🌐 **GitHub**: [github.com/fikira001](https://github.com/fikira001)
 
