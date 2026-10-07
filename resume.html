@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Idris Lawan Mustapha - SOC Analyst Resume</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    @page {
+      size: letter;
+      margin: 10mm 14mm 10mm 14mm;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 9.5pt;
+      line-height: 1.35;
+      color: #1e293b;
+      background-color: #ffffff;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      border-bottom: 2.5px solid #0f172a;
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 21pt;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #0f172a;
+      text-transform: uppercase;
+      margin-bottom: 3px;
+    }
+
+    .subtitle {
+      font-size: 10.5pt;
+      font-weight: 600;
+      color: #1e40af;
+      margin-bottom: 7px;
+      letter-spacing: 0.3px;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      font-size: 9pt;
+      color: #475569;
+      font-weight: 500;
+    }
+
+    .contact-info a {
+      color: #1e40af;
+      text-decoration: none;
+    }
+
+    .contact-info span {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    /* Section Styling */
+    section {
+      margin-bottom: 12px;
+    }
+
+    .section-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: #0f172a;
+      border-bottom: 1.5px solid #cbd5e1;
+      padding-bottom: 3px;
+      margin-bottom: 7px;
+      display: flex;
+      align-items: center;
+    }
+
+    .section-title::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 12px;
+      background-color: #1e40af;
+      margin-right: 6px;
+      border-radius: 1px;
+    }
+
+    /* Professional Summary */
+    .summary-text {
+      text-align: justify;
+      color: #334155;
+      font-size: 9.2pt;
+      line-height: 1.4;
+    }
+
+    /* Technical Skills Table / Grid */
+    .skills-grid {
+      display: table;
+      width: 100%;
+      font-size: 9pt;
+    }
+
+    .skill-row {
+      display: table-row;
+    }
+
+    .skill-label {
+      display: table-cell;
+      font-weight: 600;
+      color: #0f172a;
+      width: 160px;
+      padding-bottom: 4px;
+      vertical-align: top;
+    }
+
+    .skill-content {
+      display: table-cell;
+      color: #334155;
+      padding-bottom: 4px;
+      vertical-align: top;
+    }
+
+    /* Experience & Projects */
+    .exp-item, .project-item {
+      page-break-inside: avoid;
+      margin-bottom: 8px;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+
+    .item-title {
+      font-weight: 700;
+      font-size: 9.5pt;
+      color: #0f172a;
+    }
+
+    .item-subtitle {
+      font-weight: 600;
+      font-size: 9pt;
+      color: #1e40af;
+    }
+
+    .item-date-loc {
+      font-size: 8.5pt;
+      font-weight: 500;
+      color: #64748b;
+      white-space: nowrap;
+    }
+
+    .env-tag {
+      font-size: 8.5pt;
+      font-style: italic;
+      color: #475569;
+      margin-bottom: 3px;
+    }
+
+    ul.bullet-list {
+      list-style-type: disc;
+      padding-left: 15px;
+      margin-top: 2px;
+      margin-bottom: 4px;
+    }
+
+    ul.bullet-list li {
+      margin-bottom: 3px;
+      color: #334155;
+      font-size: 8.8pt;
+      line-height: 1.35;
+      text-align: justify;
+    }
+
+    ul.bullet-list li strong {
+      color: #0f172a;
+    }
+
+    /* Education & Certifications */
+    .edu-cert-container {
+      display: flex;
+      gap: 24px;
+      page-break-inside: avoid;
+    }
+
+    .edu-column, .cert-column {
+      flex: 1;
+    }
+
+    .simple-item {
+      margin-bottom: 5px;
+    }
+
+    .simple-title {
+      font-weight: 600;
+      color: #0f172a;
+      font-size: 9pt;
+    }
+
+    .simple-sub {
+      color: #475569;
+      font-size: 8.5pt;
+    }
+
+    @media print {
+      body {
+        width: 100%;
+      }
+      .exp-item, .project-item, .edu-cert-container {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>Idris Lawan Mustapha</h1>
+      <div class="subtitle">Security Operations Center (SOC) Analyst | Threat Detection Engineer</div>
+      <div class="contact-info">
+        <span>📍 Kano, Nigeria</span>
+        <span>📞 +234-701-414-6519</span>
+        <span>✉️ <a href="mailto:idreesmustpher@gmail.com">idreesmustpher@gmail.com</a></span>
+        <span>🔗 <a href="https://linkedin.com/in/idris-mustapha-l">linkedin.com/in/idris-mustapha-l</a></span>
+        <span>🐙 <a href="https://github.com/fikira001">github.com/fikira001</a></span>
+      </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section>
+      <div class="section-title">Professional Summary</div>
+      <p class="summary-text">
+        Security Operations Center (SOC) Analyst and Threat Detection Engineer with hands-on experience in security monitoring, detection engineering, incident investigation, and network operations across enterprise lab and production environments. Holds a B.Sc. in Cybersecurity and the Google Cybersecurity Professional Certificate, with practical expertise across enterprise SIEM platforms—including <strong>Splunk Cloud Platform</strong> and <strong>Wazuh SIEM/XDR</strong>. Experienced in ingesting kernel Sysmon telemetry via mTLS, conducting detection gap analyses, engineering custom SPL and XML detection rules for ransomware behavior (MITRE T1490), building production SOC operations dashboards, authoring formal incident response reports, and maintaining high service availability for VoIP and ISP network infrastructure under strict SLAs.
+      </p>
+    </section>
+
+    <!-- Technical Skills -->
+    <section>
+      <div class="section-title">Technical Skills & Frameworks</div>
+      <div class="skills-grid">
+        <div class="skill-row">
+          <div class="skill-label">Security Operations:</div>
+          <div class="skill-content">Security Monitoring, Incident Triage & Response, Threat Hunting, Log Analysis, Detection Engineering, IOC Analysis, Security Event Investigation</div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">SIEM & Security Tools:</div>
+          <div class="skill-content"><strong>Splunk Cloud Platform</strong> (SPL, Alert Manager, Classic XML Dashboards), <strong>Wazuh SIEM/XDR</strong>, <strong>Sysmon v15</strong>, Splunk Universal Forwarder, Wireshark, Windows Event Viewer, Kali Linux, Parrot OS, Metasploit, Git, GitHub</div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Networking & Protocols:</div>
+          <div class="skill-content">TCP/IP, DNS, DHCP, HTTP/HTTPS, FTTH, GPON, <strong>VoIP, SIP</strong>, Routing & Switching, Network Troubleshooting</div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Operating Systems:</div>
+          <div class="skill-content">Windows 10/11 Enterprise, Linux (Ubuntu, Kali Linux, Parrot OS), System Administration</div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Programming & Scripting:</div>
+          <div class="skill-content">Search Processing Language (<strong>SPL</strong>), <strong>Python</strong>, <strong>SQL</strong>, <strong>Bash</strong>, PowerShell, PCRE Regular Expressions, XML</div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-label">Security Frameworks:</div>
+          <div class="skill-content"><strong>MITRE ATT&CK Framework</strong>, NIST CSF, NIST SP 800-61, Cyber Kill Chain, CIA Triad</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Projects -->
+    <section>
+      <div class="section-title">Security & Detection Engineering Projects</div>
+
+      <div class="project-item">
+        <div class="item-header">
+          <span class="item-title">Enterprise Splunk Cloud SOC & Detection Engineering Lab</span>
+          <span class="item-date-loc">Cloud SIEM & Telemetry Lab</span>
+        </div>
+        <div class="env-tag">Environment: Splunk Cloud Platform • Splunk Universal Forwarder v10.4.3 • Sysmon v15 • Parrot OS • Windows 10 • MITRE ATT&CK</div>
+        <ul class="bullet-list">
+          <li><strong>Cloud Telemetry Ingestion via mTLS:</strong> Deployed Splunk Universal Forwarder with private CA certificates on Windows 10, establishing encrypted mTLS log forwarding of Sysmon process creation and network events to an enterprise Splunk Cloud tenant.</li>
+          <li><strong>Adversary Attack Chain Emulation:</strong> Simulated an end-to-end multi-stage cyberattack from Parrot OS including Nmap port scanning (T1046), untrusted binary execution (T1204.002), Meterpreter reverse TCP C2 (T1571), PowerShell defense evasion (T1059.001, T1562.001), SYSTEM privilege escalation (T1134), and Volume Shadow Copy destruction (T1490).</li>
+          <li><strong>Detection Engineering & Alert Automation:</strong> Authored <strong>6 production SPL detection rules</strong> using PCRE regex extraction on raw XML telemetry; deployed <strong>5 scheduled alerts</strong> in Splunk Cloud with automated trigger actions.</li>
+          <li><strong>SOC Dashboard & Executive Reporting:</strong> Designed an interactive dark-mode Classic XML SOC monitoring dashboard and authored formal executive Incident Report (IR-SPLUNK-2026-001).</li>
+        </ul>
+      </div>
+
+      <div class="project-item">
+        <div class="item-header">
+          <span class="item-title">Enterprise SOC Detection Lab — Wazuh SIEM/XDR Ransomware Simulation</span>
+          <span class="item-date-loc">Hands-on Lab Environment</span>
+        </div>
+        <div class="env-tag">Environment: Wazuh SIEM/XDR • Sysmon • Windows 10 • Kali Linux • VMware • MITRE ATT&CK</div>
+        <ul class="bullet-list">
+          <li><strong>Telemetry & SIEM Integration:</strong> Deployed Wazuh SIEM/XDR integrated with Sysmon endpoint telemetry to collect detailed Windows security events including process creation, command-line activity, registry edits, and file modifications.</li>
+          <li><strong>Ransomware Attack Chain Simulation:</strong> Simulated a complete ransomware attack from a Kali Linux adversary host covering Reconnaissance (T1595), User Execution (T1204.002), Privilege Escalation (T1134), Credential Dumping (T1003), and Shadow Copy Deletion (T1490).</li>
+          <li><strong>Gap Analysis & Custom Rule Engineering:</strong> Identified that default Wazuh rules only generated low-severity alerts for ransomware preparation techniques. Engineered <strong>3 custom XML detection rules</strong> mapped to MITRE ATT&CK T1490 to catch malicious <code>vssadmin</code>, <code>bcdedit</code>, and <code>wbadmin</code> commands, escalating alert severity to <strong>Level 12 (Critical)</strong>.</li>
+          <li><strong>IOC Investigation & Incident Reporting:</strong> Analyzed attack telemetry, extracted Indicators of Compromise (IOCs), correlated cross-host attack events, and authored a formal incident report detailing attack timelines, MITRE mappings, containment recommendations, and detection improvements.</li>
+        </ul>
+      </div>
+
+      <div class="project-item">
+        <div class="item-header">
+          <span class="item-title">SME-Guard — AI-Powered Cybersecurity Awareness Platform</span>
+          <span class="item-date-loc">Developer Project</span>
+        </div>
+        <div class="env-tag">Environment: React JS • Firebase • Python • Generative AI</div>
+        <ul class="bullet-list">
+          <li>Developed secure user authentication and Role-Based Access Control (RBAC) using Firebase Authentication.</li>
+          <li>Designed interactive cybersecurity awareness modules covering phishing, ransomware, password security, social engineering, and email security.</li>
+          <li>Integrated Generative AI to deliver personalized, adaptive cybersecurity training and awareness content for small businesses.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section>
+      <div class="section-title">Professional Experience</div>
+
+      <div class="exp-item">
+        <div class="item-header">
+          <span><strong class="item-title">Ratel Plus Nigeria Ltd.</strong> — <span class="item-subtitle">Network Operations Center (NOC) Support Engineer</span></span>
+          <span class="item-date-loc">Kano, Nigeria | 2026 – Present</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Monitor and support enterprise Voice over IP (VoIP) infrastructure to ensure high service availability and performance under strict SLAs.</li>
+          <li>Investigate VoIP service degradation, call quality issues, SIP registration failures, and network connectivity problems.</li>
+          <li>Perform first-level incident investigation, troubleshooting, and escalation following established operational procedures.</li>
+          <li>Monitor network devices, service health, and operational alerts to identify and resolve performance degradation proactively.</li>
+          <li>Document incidents, troubleshooting activities, root cause analysis (RCA), and resolution steps to support continuous service improvement.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="item-header">
+          <span><strong class="item-title">BrowsePoint Telecommunications & ISP</strong> — <span class="item-subtitle">Network Operations Center (NOC) Intern</span></span>
+          <span class="item-date-loc">Kano, Nigeria | Nov 2024 – May 2025</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Monitored FTTH (Fiber-to-the-Home) and wireless radio network infrastructure within a 24/7 ISP Network Operations Center.</li>
+          <li>Investigated fiber outages, wireless link degradation, customer connectivity issues, and network anomalies using operational monitoring tools.</li>
+          <li>Performed first-level incident investigation and escalated high-priority network incidents to senior engineers per SLA procedures.</li>
+          <li>Assisted in troubleshooting GPON, FTTH, and wireless backhaul connectivity issues to maintain network uptime.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="item-header">
+          <span><strong class="item-title">Startbench Limited</strong> — <span class="item-subtitle">IT & Systems Assistant</span></span>
+          <span class="item-date-loc">Kano, Nigeria | 2023 – 2024</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Assisted with software deployment, endpoint configuration, Windows system administration, hardware troubleshooting, and system testing.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <div class="item-header">
+          <span><strong class="item-title">Sab Ventures Computer Services</strong> — <span class="item-subtitle">IT Support Assistant</span></span>
+          <span class="item-date-loc">Kano, Nigeria | 2017 – 2021</span>
+        </div>
+        <ul class="bullet-list">
+          <li>Installed, configured, and maintained Windows workstations, network peripherals, and software applications for end users.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Side-by-Side -->
+    <section>
+      <div class="edu-cert-container">
+        <div class="edu-column">
+          <div class="section-title">Education</div>
+          <div class="simple-item">
+            <div class="simple-title">Bayero University Kano</div>
+            <div class="simple-sub">B.Sc. in Cybersecurity (2021 – 2026)</div>
+          </div>
+          <div class="simple-item">
+            <div class="simple-title">Citadel Center for Learning Computer</div>
+            <div class="simple-sub">Computer Science Program (2018 – 2019)</div>
+          </div>
+        </div>
+
+        <div class="cert-column">
+          <div class="section-title">Certifications & Training</div>
+          <div class="simple-item">
+            <div class="simple-title">Google Cybersecurity Professional Certificate</div>
+            <div class="simple-sub">Google / Coursera</div>
+          </div>
+          <div class="simple-item">
+            <div class="simple-title">Cisco Networking Academy</div>
+            <div class="simple-sub">Ethical Hacker • Introduction to Cybersecurity • Networking Basics</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
